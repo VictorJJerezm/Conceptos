@@ -60,11 +60,11 @@ void conceptos::menu()
                 exit(0);
                 break;
             default:
-                cout<<"Hubo un error, intentalo nuevamente"<<endl;
+                cout<<"\n\t\t\t Hubo un error, intentalo nuevamente"<<endl;
 
         }
         getch();
-    }while(choice!= 3);
+    }while(choice!= 5);
 }
 void conceptos::insertar()
 {
